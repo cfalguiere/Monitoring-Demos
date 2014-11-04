@@ -13,3 +13,11 @@ hs_err_pid*
 
 .DS_Store
 
+# eclipse related
+.settings
+.*
+src/demo-jee/demo/target/*
+!src/demo-jee/demo/target/demo.war
+
+
+
