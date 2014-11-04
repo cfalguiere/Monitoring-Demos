@@ -6,6 +6,9 @@
 
 * [repo principal](https://github.com/cfalguiere/Monitoring-Demos)
 
+### JEE App
+
+* [demo app](http://demo.jboss.local:8080/demo/index.jsf)
 
 ### Graphite
 
