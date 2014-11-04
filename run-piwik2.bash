@@ -1,3 +1,4 @@
 mkdir -p /opt/demo/data/piwik
 mkdir -p /opt/demo/data/piwik/mysql
-sudo docker run  -P --name piwik -v /opt/demo/data/piwik/mysql:/var/lib/mysql -d cfalguiere/docker-piwik
+mkdir -p /opt/demo/data/piwik/mysql/data
+sudo docker run  -P --name piwik -v /opt/demo/data/piwik/mysql/data:/var/lib/mysql/data -d cfalguiere/docker-piwik

@@ -13,7 +13,7 @@ RUN sed -i -r 's/jboss.bind.address.management:127.0.0.1/jboss.bind.address.mana
 
 ADD run.sh /run.sh
 ADD set_jboss_admin_pass.sh /set_jboss_admin_pass.sh
-ADD demo.war /wildfly-8.1.0.Final/standalone/deployments/
+#ADD demo.war /wildfly-8.1.0.Final/standalone/deployments/
 RUN chmod +x /*.sh
 
 # Exposed ENV
