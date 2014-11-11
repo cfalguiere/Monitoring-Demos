@@ -1,0 +1,1 @@
+curl -X POST “http://10.0.0.2:9200/demo” -d '{"ts": "2013-12-17 05:53:16,208", "type": “metric”, “module”: “Order Creation Service”, “module-id”: “456713”, “instance”: “shpras2”, “thread”: “web1234”, “name”: “order-creation”, “duration”: “12'“, “unit”: “ms'“, ”tags": "service"}  
