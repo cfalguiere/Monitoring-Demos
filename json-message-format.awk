@@ -1,0 +1,1 @@
+{print "{ \"@timestamp\": \"" $1 "\", \"mode\": \"metric\", \"module\": \"Order Creation Service\", \"moduleid\": \"" $2 "\", \"instance\": \"shpras2\", \"thread\": \"web1234\", \"metricname\": \"order-creation\", \"duration\": "  $3 ", \"unit\": \"ms\", \"tags\": \"service\" }" }
